@@ -1,0 +1,6 @@
+现象：ModuleNotFoundError: No module named 'torchvision'
+原因：未安装 PyTorch 相关库
+修改点：运行pip install torch torchvision matplotlib
+现象：中文路径报错 / 数据加载失败
+原因：数据集路径含中文
+修改点：把代码里的./data改成纯英文路径

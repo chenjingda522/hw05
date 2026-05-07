@@ -1,0 +1,2 @@
+cd hw05/task1_simple_cnn
+python simple_cnn.py
